@@ -1,0 +1,14 @@
+<button routerLink="/students" class="mb-5 "><i class='bx bx-arrow-back me-1'></i>Go Back</button>
+<div class="container d-flex justify-content-center " style="height:50vh;" *ngIf="student; else falseBlock;">
+<div class="alert alert-dark container-body">
+  <p>Student name: {{student.name}}</p>
+  <p> age: {{student.age}}</p>
+  <p>Email Address: {{student.email}}</p>
+  <p>Phone: {{student.phone}}</p>  
+</div>
+</div>
+<ng-template #falseBlock>
+  <div class="spinner-border" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+</ng-template>

@@ -1,0 +1,67 @@
+{
+  "students": [
+    {
+      "name": "Alaa El-din",
+      "age": "60",
+      "email": "Alaa@gmail.com",
+      "phone": "01001677344",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Sara",
+      "age": 25,
+      "email": "sara@gmail.com",
+      "phone": "033333333"
+    },
+    {
+      "name": "Mohamed",
+      "age": "26",
+      "email": "Mohamed@gmail.com",
+      "phone": "0444444",
+      "id": 4
+    },
+    {
+      "name": "Nabila",
+      "age": "58",
+      "email": "nabila@gmail.com",
+      "phone": "0100111112",
+      "id": 5
+    },
+    {
+      "name": "Aya",
+      "age": "20",
+      "email": "Aya@yahoo.com",
+      "phone": "01222345565",
+      "id": 6
+    },
+    {
+      "name": "Deja",
+      "age": "29",
+      "email": "dodo@yahoo.com",
+      "phone": "0112232434",
+      "id": 7
+    },
+    {
+      "name": "mahmoud",
+      "age": "18",
+      "email": "Houda@yahoo.com",
+      "phone": "012794873",
+      "id": 8
+    },
+    {
+      "name": "omar",
+      "age": "25",
+      "email": "omar@yahoo.com",
+      "phone": "01111111",
+      "id": 9
+    },
+    {
+      "name": "Habiba",
+      "age": "19",
+      "email": "habiba alaaa",
+      "phone": "01274808878",
+      "id": 10
+    }
+  ]
+}

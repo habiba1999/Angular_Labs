@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#2e60bde4, rgb(163, 178, 195));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+  }

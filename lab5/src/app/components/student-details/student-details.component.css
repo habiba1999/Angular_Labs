@@ -1,0 +1,27 @@
+/* .container {
+    width: 500px;
+    height: 260px;
+    background: #3272c6;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+  
+  } */
+  
+  .container-body{
+    z-index: 1;
+    color: rgb(6, 6, 6);
+    font-size: 18px;
+    position: absolute;
+    width: 500px;
+    height: 260px;
+  }
+  
+  
+  

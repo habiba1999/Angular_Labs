@@ -1,0 +1,23 @@
+<h2>Registeration Form</h2>
+<form  (ngSubmit)="Add(name.value,age.value, email.value, phone.value);reset()" [formGroup]="validationForm">
+    <div class="mb-3">
+      <label for="student-name" class="form-label">Name</label>
+      <input (input)="name" #test #name type="text" class="form-control" id="student-name" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="age" class="form-label">age</label>
+      <input (input)="age" #test #age type="text" class="form-control" id="age" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input (input)="email" #test #email type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="phone" class="form-label">Phone</label>
+      <input (input)="phone" #test #phone type="text" class="form-control" id="phone" aria-describedby="emailHelp">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <div class="alert alert-success d-flex justify-content-center" *ngIf="isAdded">
+      <p>Student Added Successfully!</p>
+    </div>
+  </form>
